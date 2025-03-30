@@ -1,5 +1,5 @@
 const db = require('../config/db.config');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 // ✅ Register Student
 exports.registerStudent = async (studentData) => {

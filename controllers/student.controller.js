@@ -1,5 +1,5 @@
 const pool = require('../config/db.config');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 // student.controller.js
 // student.controller.js
 
